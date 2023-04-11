@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+body{
+    /* background-image: linear-gradient(120deg , #e2c35d , #d88771); */
+    background-image: linear-gradient(120deg , #9bc400 , #8076a3);
+}
+ h1 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ form input , form button{
+    padding: 1rem;
+    border: none;
+    background-color: white;
+    
+ }
+ form button{
+    color:#9bc400;
+    background-color: white;
+    cursor: pointer;
+    transition:all 0.3s ease;
+ } 
+ form button:hover{
+    color:white;
+    background-color: #9bc400;
+ }
+.todo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+
+ }
+ .todo-item{
+    min-width: 30%;
+    padding: .9rem;
+    background-color: white;
+    margin: 5px 0px;
+ }
+ /* .complete_btn , .trash_btn{
+    background-color:#d88771 ;
+    border: none;
+    color: white;
+   
+    cursor: pointer;
+ } */
+.trash_btn{
+    background-color:#6bc224 ;
+    border: none;
+    color: white;
+    padding: 0.99rem;
+    cursor: pointer; 
+ }
+ .fa-trash{
+    pointer-events: none;
+ }
